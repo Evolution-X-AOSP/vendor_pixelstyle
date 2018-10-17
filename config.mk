@@ -152,3 +152,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Inherit from audio config
 $(call inherit-product, vendor/pixelstyle/config/audio.mk)
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim
