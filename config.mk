@@ -133,3 +133,11 @@ PRODUCT_PACKAGES += \
     QStileOxygen \
     QStileTriangles \
     QStileCircleOutline
+
+# QS header styles
+PRODUCT_PACKAGES += \
+    QSHeaderBlack \
+    QSHeaderGrey \
+    QSHeaderLightGrey \
+    QSHeaderAccent \
+    QSHeaderTransparent
