@@ -18,6 +18,7 @@ LOCAL_PATH := vendor/pixelstyle
 PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2018 \
+    Papers \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
 
