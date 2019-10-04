@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2018 \
     Papers \
     SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt
+    SettingsIntelligenceGooglePrebuilt \
+    WallpapersBReel2019
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
