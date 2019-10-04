@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2018 \
     Papers \
+    PixelThemes \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     WallpapersBReel2019
