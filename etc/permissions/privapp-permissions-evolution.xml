@@ -42,6 +42,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.RESET_BATTERY_STATS"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.android.wallpaper">
         <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
