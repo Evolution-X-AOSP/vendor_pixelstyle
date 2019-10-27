@@ -18,7 +18,7 @@ LOCAL_PATH := vendor/pixelstyle
 PRODUCT_PACKAGES += \
     Lawnchair \
     NexusLauncherRelease \
-    NexusWallpapersStubPrebuilt2018 \
+    NexusWallpapersStubPrebuilt \
     Papers \
     PixelThemes \
     SafetyHubPrebuilt \
