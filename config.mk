@@ -17,6 +17,7 @@ LOCAL_PATH := vendor/pixelstyle
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Lawnchair \
+    MicropaperPrebuilt \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt \
     Papers \
