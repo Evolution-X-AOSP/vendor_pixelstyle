@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel3
+    MatchmakerPrebuiltPixel4
 endif
 
 # build.prop entrys
