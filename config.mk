@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     MicropaperPrebuilt \
     NexusLauncherRelease \
-    NexusWallpapersStubPrebuilt \
+    NexusWallpapersStubPrebuilt2019 \
     Papers \
     PixelThemes \
     SafetyHubPrebuilt \
