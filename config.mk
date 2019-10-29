@@ -34,7 +34,10 @@ endif
 
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.wallpapers_loc_request_suw=true
+    ro.wallpapers_loc_request_suw=true \
+    setupwizard.enable_assist_gesture_training=true \
+    setupwizard.feature.show_pixel_tos=true \
+    setupwizard.theme=glif_v3_light
 
 # Bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
@@ -60,6 +63,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/media,$(TARG
 
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5
 
 # Include package overlays
