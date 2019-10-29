@@ -24,12 +24,12 @@ PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt \
-    WallpapersBReel2019
+    SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4
+    MatchmakerPrebuiltPixel4 \
+    WallpapersBReel2019
 endif
 
 # build.prop entrys
