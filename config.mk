@@ -32,12 +32,24 @@ PRODUCT_PACKAGES += \
     WallpapersBReel2019
 endif
 
-# build.prop entrys
-PRODUCT_PROPERTY_OVERRIDES += \
+# Build.prop entries
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.wallpapers_loc_request_suw=true \
     setupwizard.enable_assist_gesture_training=true \
+    setupwizard.feature.baseline_setupwizard_enabled=true \
     setupwizard.feature.show_pixel_tos=true \
+    setupwizard.feature.show_support_link_in_deferred_setup=false \
     setupwizard.theme=glif_v3_light
+
+# Gestures
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
+# IME
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.bs_theme=true \
+    ro.com.google.ime.system_lm_dir=/system/product/usr/share/ime/google/d3_lms \
+    ro.com.google.ime.theme_id=5
 
 # Bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
@@ -62,11 +74,6 @@ endif
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/media,$(TARGET_COPY_OUT_PRODUCT)/media)
-
-# Set Pixel blue light theme on Gboard
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.ime.bs_theme=true \
-    ro.com.google.ime.theme_id=5
 
 # Include package overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
