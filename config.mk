@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2019 \
     Papers \
+    PixelDocumentsUIGoogleOverlay \
     PixelLiveWallpaperPrebuilt \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
