@@ -47,6 +47,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <privapp-permissions package="com.android.systemui">
         <permission name="android.permission.REBOOT"/>
         <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
         <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
         <permission name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     </privapp-permissions>
