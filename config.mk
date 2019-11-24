@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     MicropaperPrebuilt \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2019 \
+    OPScreenRecorder \
     Papers \
     PixelDocumentsUIGoogleOverlay \
     PixelLiveWallpaperPrebuilt \
