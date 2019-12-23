@@ -71,6 +71,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.LOCATION_HARDWARE"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.google.android.gms.">
+        <permission name="android.permission.ACTIVITY_RECOGNITION"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.oneplus.screenrecord">
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.READ_PHONE_STATE"/>
