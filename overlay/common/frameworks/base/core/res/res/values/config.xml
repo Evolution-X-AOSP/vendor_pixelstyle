@@ -47,5 +47,6 @@
     <item type="dimen" name="config_fullTaskSnapshotScale">0.8</item>
     <integer name="config_maxShortcutTargetsPerApp">8</integer>
     <integer name="config_storageManagerDaystoRetainDefault">60</integer>
+    <string name="default_wallpaper_component" translatable="false">@null</string>
 
 </resources>
