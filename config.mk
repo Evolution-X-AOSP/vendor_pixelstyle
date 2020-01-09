@@ -45,7 +45,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=The_big_adventure.ogg,Zen_too.ogg \
+    ro.config.ringtone=Evolution.ogg,Evolution.ogg \
     ro.config.notification_sound=Popcorn.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
 
