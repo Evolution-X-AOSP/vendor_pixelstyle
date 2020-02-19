@@ -1,24 +1,13 @@
 <fonts-modification version="1">
-    <family customizationType="new-named-family" name="manrope">
-        <font weight="100" style="normal">Manrope-ExtraLight.ttf</font>
-        <font weight="200" style="normal">Manrope-Light.ttf</font>
-        <font weight="400" style="normal">Manrope-Regular.ttf</font>
-        <font weight="500" style="normal">Manrope-Medium.ttf</font>
-        <font weight="600" style="normal">Manrope-SemiBold.ttf</font>
-        <font weight="700" style="normal">Manrope-Bold.ttf</font>
-        <font weight="800" style="normal">Manrope-ExtraBold.ttf</font>
+    <family customizationType="new-named-family" name="inter">
+        <font weight="400" style="normal">Inter-Regular.ttf</font>
+        <font weight="400" style="italic">Inter-Italic.ttf</font>
+        <font weight="500" style="normal">Inter-Medium.ttf</font>
+        <font weight="500" style="italic">Inter-MediumItalic.ttf</font>
+        <font weight="700" style="normal">Inter-Bold.ttf</font>
+        <font weight="700" style="italic">Inter-BoldItalic.ttf</font>
     </family>
-    <alias name="manrope-medium" to="manrope" weight="500" />
-    <alias name="manrope-semi-bold" to="manrope" weight="600" />
-    <alias name="manrope-bold" to="manrope" weight="700" />
-    <alias name="times" to="manrope" />
-    <alias name="times new roman" to="manrope" />
-    <alias name="palatino" to="manrope" />
-    <alias name="georgia" to="manrope" />
-    <alias name="baskerville" to="manrope" />
-    <alias name="goudy" to="manrope" />
-    <alias name="fantasy" to="manrope" />
-    <alias name="ITC Stone Serif" to="manrope" />
+    <alias name="inter-medium" to="inter" weight="500" />
 
     <family customizationType="new-named-family" name="arbutus-slab">
       <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
