@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019 \
     OPScreenRecorder \
     Papers \
-    PixelDocumentsUIGoogleOverlay \
     PixelLiveWallpaperPrebuilt \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
