@@ -21,11 +21,15 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2019 \
     OPScreenRecord \
-    Papers \
     PixelLiveWallpaperPrebuilt \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
+
+ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+PRODUCT_PACKAGES += \
+    Papers
+endif
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
