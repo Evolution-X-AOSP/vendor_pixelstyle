@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="config_default_show_device_root">true</bool>
-    <bool name="feature_default_root_in_browse">true</bool>
-    <bool name="show_documents_root">true</bool>
-</resources>
