@@ -16,7 +16,6 @@ LOCAL_PATH := vendor/pixelstyle
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GooglePermissionControllerOverlay \
     MicropaperPrebuilt \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2019 \
