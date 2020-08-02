@@ -240,4 +240,52 @@
     <alias name="goudy" to="linotte" />
     <alias name="fantasy" to="linotte" />
     <alias name="ITC Stone Serif" to="linotte" />
+
+    <family customizationType="new-named-family" name="evolvesans">
+      <font weight="400" style="normal">EvolveSans.ttf</font>
+    </family>
+    <alias name="evolvesans-light" to="evolvesans" weight="300" />
+    <alias name="evolvesans-medium" to="evolvesans" weight="500" />
+    <alias name="evolvesans-semi-bold" to="evolvesans" weight="600" />
+    <alias name="evolvesans-bold" to="evolvesans" weight="700" />
+    <alias name="times" to="evolvesans" />
+    <alias name="times new roman" to="evolvesans" />
+    <alias name="palatino" to="evolvesans" />
+    <alias name="georgia" to="evolvesans" />
+    <alias name="baskerville" to="evolvesans" />
+    <alias name="goudy" to="evolvesans" />
+    <alias name="fantasy" to="evolvesans" />
+    <alias name="ITC Stone Serif" to="evolvesans" />
+
+    <family customizationType="new-named-family" name="anaheim">
+      <font weight="400" style="normal">Anaheim-Regular.ttf</font>
+    </family>
+    <alias name="anaheim-light" to="anaheim" weight="300" />
+    <alias name="anaheim-medium" to="anaheim" weight="500" />
+    <alias name="anaheim-semi-bold" to="anaheim" weight="600" />
+    <alias name="anaheim-bold" to="anaheim" weight="700" />
+    <alias name="times" to="anaheim" />
+    <alias name="times new roman" to="anaheim" />
+    <alias name="palatino" to="anaheim" />
+    <alias name="georgia" to="anaheim" />
+    <alias name="baskerville" to="anaheim" />
+    <alias name="goudy" to="anaheim" />
+    <alias name="fantasy" to="anaheim" />
+    <alias name="ITC Stone Serif" to="anaheim" />
+
+    <family customizationType="new-named-family" name="tinkerbell">
+      <font weight="400" style="normal">GearTinkerbell.ttf</font>
+    </family>
+    <alias name="tinkerbell-light" to="tinkerbell" weight="300" />
+    <alias name="tinkerbell-medium" to="tinkerbell" weight="500" />
+    <alias name="tinkerbell-semi-bold" to="tinkerbell" weight="600" />
+    <alias name="tinkerbell-bold" to="tinkerbell" weight="700" />
+    <alias name="times" to="tinkerbell" />
+    <alias name="times new roman" to="tinkerbell" />
+    <alias name="palatino" to="tinkerbell" />
+    <alias name="georgia" to="tinkerbell" />
+    <alias name="baskerville" to="tinkerbell" />
+    <alias name="goudy" to="tinkerbell" />
+    <alias name="fantasy" to="tinkerbell" />
+    <alias name="ITC Stone Serif" to="tinkerbell" />
 </fonts-modification>
