@@ -16,23 +16,11 @@ LOCAL_PATH := vendor/pixelstyle
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    MicropaperPrebuilt \
-    NexusLauncherRelease \
-    NexusWallpapersStubPrebuilt2019 \
-    OPScreenRecord \
-    PixelLiveWallpaperPrebuilt \
-    PixelThemesStub2019 \
-    SettingsIntelligenceGooglePrebuilt
+    OPScreenRecord
 
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
     Papers
-endif
-
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4 \
-    WallpapersBReel2019
 endif
 
 # Offline charger
@@ -113,30 +101,30 @@ PRODUCT_PACKAGE_OVERLAYS += \
 $(call inherit-product, vendor/pixelstyle/config/audio.mk)
 
 # QS tile styles
-PRODUCT_PACKAGES += \
-    QStileCircleTrim \
-    QStileDefault \
-    QStileDualToneCircle \
-    QStileSquircleTrim \
-    QStileAttemptMountain \
-    QStileDottedCircle \
-    QStileNinja \
-    QStilePokesign \
-    QStileWavey \
-    QStileCookie \
-    QStileInkDrop \
-    QStileSquaremedo \
-    QStileCosmos \
-    QStileDividedCircle \
-    QStileNeonLight \
-    QStileOxygen \
-    QStileTriangles \
-    QStileCircleOutline
+#PRODUCT_PACKAGES += \
+#    QStileCircleTrim \
+#    QStileDefault \
+#    QStileDualToneCircle \
+#    QStileSquircleTrim \
+#    QStileAttemptMountain \
+#    QStileDottedCircle \
+#    QStileNinja \
+#    QStilePokesign \
+#    QStileWavey \
+#    QStileCookie \
+#    QStileInkDrop \
+#    QStileSquaremedo \
+#    QStileCosmos \
+#    QStileDividedCircle \
+#    QStileNeonLight \
+#    QStileOxygen \
+#    QStileTriangles \
+#    QStileCircleOutline
 
 # QS header styles
-PRODUCT_PACKAGES += \
-    QSHeaderBlack \
-    QSHeaderGrey \
-    QSHeaderLightGrey \
-    QSHeaderAccent \
-    QSHeaderTransparent
+#PRODUCT_PACKAGES += \
+#    QSHeaderBlack \
+#    QSHeaderGrey \
+#    QSHeaderLightGrey \
+#    QSHeaderAccent \
+#    QSHeaderTransparent
