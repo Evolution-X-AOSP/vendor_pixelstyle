@@ -18,7 +18,7 @@ LOCAL_PATH := vendor/pixelstyle
 PRODUCT_PACKAGES += \
     OPScreenRecord
 
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+ifeq ($(EVO_BUILD_TYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
     Papers
 endif
