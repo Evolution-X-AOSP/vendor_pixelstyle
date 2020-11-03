@@ -84,3 +84,6 @@ $(call inherit-product, vendor/pixelstyle/config/audio.mk)
 
 # Inherit from bootanimation config
 $(call inherit-product, vendor/pixelstyle/config/bootanimation.mk)
+
+# Inherit from fonts config
+$(call inherit-product, vendor/pixelstyle/config/fonts.mk)
