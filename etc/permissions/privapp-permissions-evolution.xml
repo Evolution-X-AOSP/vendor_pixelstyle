@@ -34,6 +34,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MANAGE_DOCUMENTS"/>
         <permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_CONTACTS"/>
         <permission name="android.permission.READ_SYNC_SETTINGS"/>
         <permission name="android.permission.REBOOT"/>
         <permission name="android.permission.RECORD_AUDIO"/>
@@ -52,6 +53,19 @@ It allows additional grants on top of privapp-permissions-platform.xml
 
     <privapp-permissions package="com.breel.wallpapers19">
         <permission name="android.permission.AMBIENT_WALLPAPER"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/> 
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.breel.wallpapers20">
+        <permission name="android.permission.AMBIENT_WALLPAPER"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
         <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
@@ -63,7 +77,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.LOCATION_HARDWARE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.google.android.gms.">
+    <privapp-permissions package="com.google.android.apps.tips">
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.gms">
         <permission name="android.permission.ACTIVITY_RECOGNITION"/>
     </privapp-permissions>
 

@@ -184,7 +184,7 @@
     <string name="config_defaultAssistant">com.google.android.googlequicksearchbox</string>
 
     <!-- The name of the package that will hold the assistant role by default. -->
-    <string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
+    <!--string name="config_defaultAssistantAccessComponent">com.google.android.ext.services/android.ext.services.notification.Assistant</string-->
 
     <!-- The component name, flattened to a string, for the default autofill service
          to  enabled for an user. This service must be trusted, as it can be activated
@@ -226,7 +226,7 @@
          will be used.
          See android.view.textclassifier.TextClassificationManager.
     -->
-    <string name="config_servicesExtensionPackage">com.google.android.ext.services</string>
+    <!--string name="config_servicesExtensionPackage">com.google.android.ext.services</string-->
 
     <!-- The name of the package that will hold the system gallery role. -->
     <string name="config_systemGallery">com.google.android.apps.photos</string>
@@ -285,7 +285,7 @@
     <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
 
     <!-- Component name for the default module metadata provider on this device -->
-    <string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string>
+    <!--string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string-->
 
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
