@@ -85,3 +85,6 @@ $(call inherit-product, vendor/pixelstyle/config/bootanimation.mk)
 
 # Inherit from fonts config
 $(call inherit-product, vendor/pixelstyle/config/fonts.mk)
+
+# Inherit from rro-overlays config
+$(call inherit-product, vendor/pixelstyle/config/rro_overlays.mk)
