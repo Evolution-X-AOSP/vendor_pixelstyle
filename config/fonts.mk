@@ -91,5 +91,4 @@ PRODUCT_PACKAGES += \
     Barlow-Bold.ttf \
     Barlow-Medium.ttf
 
-PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pixelstyle/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
