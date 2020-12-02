@@ -62,13 +62,6 @@
     -->
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
 
-    <!-- Package name(s) containing location provider support. These packages will be auto-granted
-         several permissions by the system, and should be system packages. -->
-    <string-array name="config_locationProviderPackageNames" translatable="false">
-        <item>com.google.android.gms</item>
-        <item>com.android.location.fused</item>
-    </string-array>
-
     <!-- User restrictions set when the first user is created.
          Note: Also update appropriate overlay files. -->
     <string-array name="config_defaultFirstUserRestrictions">
