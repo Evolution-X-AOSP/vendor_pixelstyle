@@ -53,9 +53,6 @@
     <!-- Default number of days to retain for the automatic storage manager. -->
     <integer name="config_storageManagerDaystoRetainDefault">60</integer>
 
-    <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
-    <item type="dimen" name="config_highResTaskSnapshotScale">0.8</item>
-
     <!-- An array of packages that need to be treated as type service in battery settings -->
     <string-array name="config_batteryPackageTypeService">
         <item>com.google.android.gms</item>
