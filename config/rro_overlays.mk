@@ -16,7 +16,8 @@
 
 # Evolution X Overlays
 PRODUCT_PACKAGES += \
-    EvolutionXConfigOverlay
+    EvolutionXConfigOverlay \
+    SettingsGoogleOverlayEvolutionX
 
 # Google Overlays
 PRODUCT_PACKAGES += \
