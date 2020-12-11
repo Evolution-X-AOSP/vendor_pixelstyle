@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     Lato-Medium.ttf \
     Lato-Regular.ttf
 
+# Lustria family
+PRODUCT_PACKAGES += \
+    Lustria-Regular.ttf
+
 # rubik family
 PRODUCT_PACKAGES += \
     Rubik-BoldItalic.ttf \
@@ -79,6 +83,7 @@ PRODUCT_PACKAGES += \
 
 # Fraunces family
 PRODUCT_PACKAGES += \
+    Fraunces-Regular.ttf \
     Fraunces-SemiBold.ttf
 
 # BigShouldersText family
