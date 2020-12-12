@@ -88,3 +88,6 @@ $(call inherit-product, vendor/pixelstyle/config/fonts.mk)
 
 # Inherit from rro-overlays config
 $(call inherit-product, vendor/pixelstyle/config/rro_overlays.mk)
+
+# Inherit from textclassifier config
+$(call inherit-product, vendor/pixelstyle/config/textclassifier.mk)
