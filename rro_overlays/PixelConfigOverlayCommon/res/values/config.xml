@@ -23,9 +23,6 @@
     <!-- Controls whether system buttons use all caps for text -->
     <bool name="config_buttonTextAllCaps">false</bool>
 
-    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
-    <bool name="config_defaultRingtonePickerEnabled">false</bool>
-
     <!-- Whether to send a custom package name with the PSD.-->
     <bool name="config_sendPackageName">true</bool>
 
