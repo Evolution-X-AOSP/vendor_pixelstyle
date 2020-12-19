@@ -72,6 +72,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+ifeq ($(TARGET_CARRIER_SETTINGS), true)
+# Include carrier product overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-carrier
+endif
+
 # Inherit from audio config
 $(call inherit-product, vendor/pixelstyle/config/audio.mk)
 
