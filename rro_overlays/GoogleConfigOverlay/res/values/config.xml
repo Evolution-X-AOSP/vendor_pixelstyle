@@ -81,7 +81,7 @@
          will be used.
          See android.view.textclassifier.TextClassificationManager.
     -->
-    <string name="config_servicesExtensionPackage">com.google.android.ext.services</string>
+    <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
 
     <!-- The name of the package that will hold the system gallery role. -->
     <string name="config_systemGallery">com.google.android.apps.photos</string>
