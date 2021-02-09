@@ -145,6 +145,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.asus.stitchimage.service">
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.breel.wallpapers19">
         <permission name="android.permission.AMBIENT_WALLPAPER"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/> 
