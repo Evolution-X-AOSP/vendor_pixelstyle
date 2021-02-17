@@ -28,17 +28,25 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/alarms/Spokes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Spokes.ogg \
     vendor/pixelstyle/audio/alarms/Sunshower.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sunshower.ogg \
     vendor/pixelstyle/audio/notifications/Beginning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Beginning.ogg \
+    vendor/pixelstyle/audio/notifications/Birdsong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Birdsong.ogg \
+    vendor/pixelstyle/audio/notifications/Chime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Chime.ogg \
+    vendor/pixelstyle/audio/notifications/Clink.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Clink.ogg \
     vendor/pixelstyle/audio/notifications/Coconuts.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Coconuts.ogg \
     vendor/pixelstyle/audio/notifications/Duet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Duet.ogg \
     vendor/pixelstyle/audio/notifications/End_note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/End_note.ogg \
+    vendor/pixelstyle/audio/notifications/Flick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Flick.ogg \
     vendor/pixelstyle/audio/notifications/Gentle_gong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Gentle_gong.ogg \
+    vendor/pixelstyle/audio/notifications/Hey.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Hey.ogg \
     vendor/pixelstyle/audio/notifications/Mallet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mallet.ogg \
+    vendor/pixelstyle/audio/notifications/Note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Note.ogg \
     vendor/pixelstyle/audio/notifications/Orders_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Orders_up.ogg \
     vendor/pixelstyle/audio/notifications/Ping.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Ping.ogg \
     vendor/pixelstyle/audio/notifications/Pipes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pipes.ogg \
     vendor/pixelstyle/audio/notifications/Popcorn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Popcorn.ogg \
     vendor/pixelstyle/audio/notifications/Shopkeeper.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Shopkeeper.ogg \
     vendor/pixelstyle/audio/notifications/Sticks_and_stones.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sticks_and_stones.ogg \
+    vendor/pixelstyle/audio/notifications/Strum.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Strum.ogg \
+    vendor/pixelstyle/audio/notifications/Trill.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Trill.ogg \
     vendor/pixelstyle/audio/notifications/Tuneup.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tuneup.ogg \
     vendor/pixelstyle/audio/notifications/Tweeter.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tweeter.ogg \
     vendor/pixelstyle/audio/notifications/Twinkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Twinkle.ogg \
