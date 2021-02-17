@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/notifications/Twinkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Twinkle.ogg \
     vendor/pixelstyle/audio/ringtones/Copycat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Copycat.ogg \
     vendor/pixelstyle/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
+    vendor/pixelstyle/audio/ringtones/Evolution.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Evolution.ogg \
     vendor/pixelstyle/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
     vendor/pixelstyle/audio/ringtones/Hotline.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hotline.ogg \
     vendor/pixelstyle/audio/ringtones/Leaps_and_bounds.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Leaps_and_bounds.ogg \
