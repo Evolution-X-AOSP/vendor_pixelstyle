@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2020 Raphielscape LLC. and Haruka LLC.
+# Copyright (C) 2021 The Evolution X Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +18,7 @@
 # Evolution X Overlays
 PRODUCT_PACKAGES += \
     EvolutionXConfigOverlay \
+    PixelSetupWizardOverlayEvolutionX \
     SettingsGoogleOverlayEvolutionX
 
 # Google Overlays

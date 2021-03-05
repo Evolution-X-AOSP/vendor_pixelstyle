@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The Evolution X Project
+# Copyright (C) 2020-2021 The Evolution X Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,15 +15,6 @@
 #
 
 LOCAL_PATH := vendor/pixelstyle
-
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    OPScreenRecord
-
-ifeq ($(EVO_BUILD_TYPE), OFFICIAL)
-PRODUCT_PACKAGES += \
-    Papers
-endif
 
 # Offline charger
 PRODUCT_PACKAGES += \
@@ -86,9 +77,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Inherit from audio config
 $(call inherit-product, vendor/pixelstyle/config/audio.mk)
-
-# Inherit from bootanimation config
-$(call inherit-product, vendor/pixelstyle/config/bootanimation.mk)
 
 # Inherit from fonts config
 $(call inherit-product, vendor/pixelstyle/config/fonts.mk)
