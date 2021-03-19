@@ -16,7 +16,6 @@
 
 runtime_resource_overlay {
     name: "EvolutionXConfigOverlay",
-    theme: "EvolutionXConfigOverlay",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

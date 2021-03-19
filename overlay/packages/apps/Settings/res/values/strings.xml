@@ -31,9 +31,11 @@
     <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
     <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
     <string name="config_nearby_devices_slice_uri">content://com.google.android.gms.nearby.fastpair/device_status_list_item</string>
+    <string name="config_rtt_setting_intent_action">com.android.dialer.rtt.settings.impl.gateway.ACTION_OPEN_RTT_SETTINGS</string>
+    <string name="config_rtt_setting_package_name">com.google.android.dialer</string>
+    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
     <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
-    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
     <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
 
     <!-- Help URI -->
@@ -146,4 +148,128 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Just touch the Pixel Imprint sensor to wake and unlock your phone.</string>
+
+    <!-- Title for accessibility preference screen for configuring vibrations. -->
+    <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
+	
+    <!-- Title for setting tile leading to account settings [CHAR LIMIT=40]-->
+    <string name="account_dashboard_title">Passwords and accounts</string>
+
+    <!-- Configure Notifications: Advanced section header [CHAR LIMIT=30] -->
+    <string name="advanced_section_header">General</string>
+
+    <!-- Summary for Apps & Notification settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
+    <string name="app_and_notification_dashboard_summary">Assistant, recent apps, default apps</string>
+
+    <!-- Category name for App Launch -->
+    <string name="app_launch_other_defaults_title">Other default preferences</string>
+
+    <!-- Keywords for the auto-fill feature. [CHAR LIMIT=NONE] -->
+    <string name="autofill_keywords">auto, fill, autofill, password</string>
+
+    <!-- Dropdown preference title for dropdown describing how many days of data to retain.-->
+    <string name="automatic_storage_manager_days_title">Remove backed up photos &amp; videos</string>
+
+    <!-- Mobile network settings screen, a string showing the version of carrier settings for this
+         subscription [CHAR LIMIT=NONE] -->
+    <string name="carrier_settings_version">Carrier settings version</string>
+
+    <!-- Manage applications, individual application screen, button label under Launch by default heading.  This is used to clear any default actions that may be assigned to this app.  -->
+    <string name="clear_activities">Clear default preferences</string>
+
+    <!-- Title of the 'Content Capture' feature toggle in the Settings -> Privacy screen [CHAR LIMIT=none]-->
+    <string name="content_capture">Personalize using app data</string>
+
+    <!-- Dark theme screen, description of Dark theme feature. [CHAR LIMIT=NONE] -->
+    <string name="dark_ui_text">Dark theme uses a black background to help keep your battery alive longer. Dark theme schedules wait to turn on until your screen is off.</string>
+
+    <!-- Date & time setting screen setting check box title if the date and time should be determined automatically [CHAR LIMIT=100] -->
+    <string name="date_time_auto">Set time automatically</string>
+
+    <!-- If blurs are supported on SurfaceFlinger, summary. [CHAR LIMIT=NONE] -->
+    <string name="enable_blurs_on_windows_summary">Enables window blurs at compositor level. Requires device reboot.</string>
+
+    <!-- List of synonyms for the auto rotate (rotate the virtual display when the device rotates) setting, used to match in settings search [CHAR LIMIT=NONE] -->
+    <string name="keywords_auto_rotate">camera, smart, auto rotate, auto-rotate, rotate, flip, rotation, portrait, landscape, orientation, vertical, horizontal</string>
+
+    <!-- List of synonyms for the Bluetooth setting, used to match in settings search [CHAR LIMIT=NONE] -->
+    <string name="keywords_bluetooth_settings">connected, device, headphones, headset, speaker, wireless, pair, earbuds, music, media</string>
+
+    <!-- Keywords for Content Capture feature [CHAR_LIMIT=none] -->
+    <string name="keywords_content_capture">content capture, app content, app data</string>
+
+    <!-- Search keywords for adaptive sleep setting [CHAR LIMIT=NONE]-->
+    <string name="keywords_display_adaptive_sleep">smart, dim screen, sleep, battery, timeout, attention, display, screen, inactivity</string>
+
+    <string name="keywords_gesture">gesture, moves</string>
+
+    <!-- Title of Languages & input settings screen -->
+    <string name="language_keyboard_settings_title">Languages &amp; input</string>
+
+    <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
+    <string name="language_settings">Languages &amp; input</string>
+
+    <!-- [CHAR LIMIT=30] Location settings screen. It's a link that directs the user to a page that
+      shows the location permission setting for each installed app -->
+    <string name="location_app_level_permissions">Manage location permissions</string>
+
+    <!-- [CHAR LIMIT=50] Location settings screen, sub category for recent location access -->
+    <string name="location_category_recent_location_access">Recent access</string>
+
+    <!-- Configure Notifications: Title for the option controlling notifications on the lockscreen. [CHAR LIMIT=30] -->
+    <string name="lock_screen_notifications_title">Privacy</string>
+
+    <!-- Sound & notification > Advanced section: Title for managing notification listeners option. [CHAR LIMIT=30] -->
+    <string name="manage_notification_access_title">Device &amp; app notifications</string>
+
+    <!-- Edit access point screen menu option to discard the user's changes for this APN -->
+    <string name="menu_cancel">Cancel</string>
+
+    <!-- Title for preference showing the primary account on the device [CHAR LIMIT=60]-->
+    <string name="my_device_info_account_preference_title">Google Account</string>
+
+    <!-- [CHAR LIMIT=100] preference category title -->
+    <string name="other_conversations">Non-priority conversations</string>
+
+    <!-- LTE [CHAR LIMIT=NONE] -->
+    <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
+
+    <!-- Summary for prevent ringing setting -->
+    <string name="prevent_ringing_option_mute_summary">Mute</string>
+
+    <!-- Summary for prevent ringing setting -->
+    <string name="prevent_ringing_option_vibrate_summary">Vibrate</string>
+
+    <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE] -->
+    <string name="security_dashboard_summary">Play Protect, screen lock, fingerprint</string>
+
+    <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE] -->
+    <string name="security_dashboard_summary_face">Play Protect, screen lock, face unlock</string>
+
+    <!-- Summary for Security settings when fingerprint is not supported [CHAR LIMIT=NONE]-->
+    <string name="security_dashboard_summary_no_fingerprint">Play Protect, screen lock</string>
+
+    <!-- Introduction title shown in face enrollment to introduce the face unlock feature [CHAR LIMIT=40] -->
+    <string name="security_settings_face_enroll_introduction_title">Set up face unlock</string>
+
+    <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
+    <string name="sound_dashboard_summary">Volume, haptics, Do Not Disturb</string>
+
+    <!-- Sound settings screen heading -->
+    <string name="sound_settings">Sound &amp; vibration</string>
+
+    <!-- Generic label for suggestion card's ok button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_text">Finish setup</string>
+
+    <!-- Title of one of the choices in a dialog (with title defined in usb_use) that lets the user
+         select what the USB connection for this device should be used for. This choice
+         is for transferring files via MTP. -->
+    <string name="usb_use_file_transfers">File transfer / Android Auto</string>
+
+    <!-- Sound: Summary for the Do not Disturb option when there are no automatic rules enabled. [CHAR LIMIT=NONE]-->
+    <string name="zen_mode_settings_summary_off">Never</string>
+
+    <!-- Date & time setting screen setting option text when Automatic time zone check box is selected (that is, when date and time should be determined automatically)
+        [CHAR LIMIT=100]  -->
+    <string name="zone_auto_title">Set time zone automatically</string>
 </resources>

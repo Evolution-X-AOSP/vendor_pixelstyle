@@ -23,6 +23,9 @@
     <!-- Controls whether system buttons use all caps for text -->
     <bool name="config_buttonTextAllCaps">false</bool>
 
+    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
+    <bool name="config_defaultRingtonePickerEnabled">true</bool>
+
     <!-- Whether to send a custom package name with the PSD.-->
     <bool name="config_sendPackageName">true</bool>
 
@@ -68,6 +71,7 @@
         <item>com.google.android.setupwizard</item>
         <item>com.google.android.apps.pixelmigrate</item>
         <item>com.google.android.dialer</item>
+        <item>com.google.android.googlequicksearchbox:com.google.android.apps.gsa.plugins.podcastplayer.channel</item>
     </string-array>
 
     <!-- List of packages that can use the Conversation space for their category messages
@@ -87,6 +91,7 @@
         <item>com.viber.voip</item>
         <item>com.linkedin.android</item>
         <item>com.tencent.mm</item>
+        <item>com.Slack</item>
     </string-array>
 
     <!-- Names of packages that should not be suspended when personal use is blocked by policy. -->

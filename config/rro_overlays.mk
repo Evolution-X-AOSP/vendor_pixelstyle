@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
 
 # Google Overlays
 PRODUCT_PACKAGES += \
+    CaptivePortalLoginOverlay \
     CellBroadcastServiceOverlay \
     GoogleConfigOverlay \
     GoogleWebViewOverlay \
