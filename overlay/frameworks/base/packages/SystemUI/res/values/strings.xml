@@ -17,6 +17,9 @@
 */
 -->
 <resources>
+    <!-- Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ethernet_connected">Ethernet.</string>
+
     <!-- Monitoring dialog text for single app (inside personal profile) [CHAR LIMIT=400] -->
     <string name="branded_monitoring_description_app_personal">Google is securing this connection by sending data through its servers</string>
 
@@ -27,6 +30,15 @@
          Blank sends the user to the Chooser first.
          This name is in the ComponentName flattened format (package/class)  -->
     <string name="config_screenshotEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
+
+    <!-- Indication on the keyguard that appears when a trust agents unlocks the device. [CHAR LIMIT=40] -->
+    <string name="keyguard_indication_trust_unlocked">Kept unlocked by Smart Lock</string>
+
+    <!-- Notification text displayed when we fail to save a screenshot. [CHAR LIMIT=100] -->
+    <string name="screenshot_failed_to_save_text">Can\'t save screenshot</string>
+
+    <!-- Separator for PLMN and SPN in network name. -->
+    <string name="status_bar_network_name_separator" translatable="false"> - </string>
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default">wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,night,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService)</string>
