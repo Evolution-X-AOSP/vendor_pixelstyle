@@ -27,37 +27,6 @@ PRODUCT_PACKAGES += \
     GoogleSans-Medium.ttf \
     GoogleSans-Regular.ttf
 
-# Inter family
-PRODUCT_PACKAGES += \
-    Inter-Black.otf \
-    Inter-ExtraBold.otf \
-    Inter-Italic.otf \
-    Inter-MediumItalic.otf \
-    Inter-Thin.otf \
-    Inter-BlackItalic.otf \
-    Inter-ExtraBoldItalic.otf \
-    Inter-Light.otf \
-    Inter-Regular.otf \
-    Inter-ThinItalic.otf \
-    Inter-Bold.otf \
-    Inter-ExtraLight.otf \
-    Inter-LightItalic.otf \
-    Inter-SemiBold.otf \
-    Inter-BoldItalic.otf \
-    Inter-ExtraLightItalic.otf \
-    Inter-Medium.otf \
-    Inter-SemiBoldItalic.otf
-
-# Manrope family
-PRODUCT_PACKAGES += \
-    Manrope-Bold.otf \
-    Manrope-ExtraBold.otf \
-    Manrope-ExtraLight.otf \
-    Manrope-Light.otf \
-    Manrope-Medium.otf \
-    Manrope-Regular.otf \
-    Manrope-SemiBold.otf
-
 # lato family
 PRODUCT_PACKAGES += \
     Lato-BoldItalic.ttf \
@@ -105,5 +74,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Barlow-Bold.ttf \
     Barlow-Medium.ttf
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pixelstyle/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
