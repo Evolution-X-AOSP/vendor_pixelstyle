@@ -24,18 +24,9 @@ PRODUCT_PACKAGES += \
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 
-# Use gestures by default
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-
-# Turn off storage manager
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.storage_manager.enabled=false
-
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
-    ro.com.google.ime.kb_pad_port_b=1 \
     ro.com.google.ime.theme_id=5 \
     ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
 
@@ -69,6 +60,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.carriersetup.vzw_consent_page=true
 
+# Use gestures by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
+# Turn off storage manager
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.storage_manager.enabled=false
+
 # Include product overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -79,7 +78,7 @@ $(call inherit-product, vendor/pixelstyle/config/audio.mk)
 # Inherit from fonts config
 $(call inherit-product, vendor/pixelstyle/config/fonts.mk)
 
-# Inherit from rro-overlays config
+# Inherit from rro_overlays config
 $(call inherit-product, vendor/pixelstyle/config/rro_overlays.mk)
 
 # Inherit from textclassifier config
